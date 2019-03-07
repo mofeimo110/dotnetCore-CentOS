@@ -1,0 +1,51 @@
+﻿body {
+}
+
+.b-nav
+{
+    height: 40px;
+    right: 0px;
+}
+
+.b-nav .b-nav-tabs
+{
+    list-style-type: none;
+}
+
+.b-nav .b-nav-tabs li
+{
+    float: left;
+    height: 39px;
+}
+
+.b-nav .b-nav-tabs li.active
+{
+    background: url('image/bottom_arrow.gif') no-repeat bottom;
+}
+
+.b-nav .b-nav-tabs li.active a
+{
+    background: url('image/border.gif') repeat-x 0px bottom;
+    color: rgb(204, 0, 0);
+}
+
+.b-nav .b-nav-tabs li a
+{
+    text-decoration: none;
+    float: left;
+    padding: 0px 15px 0px 15px;
+    height: 35px;
+    color: rgb(51, 51, 51);
+    line-height: 2em;
+    border-left-color: rgb(221, 221, 221);
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+.b-nav .fixed {
+    height: 40px;
+    background: rgb(255, 255, 255) url('image/backborder.gif') repeat-x 0px 0px;
+	position: fixed; z-index: 2;
+	left:200px; right:0px;
+	min-width: 600px;
+}

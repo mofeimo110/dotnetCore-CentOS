@@ -1,0 +1,121 @@
+﻿.miphone{
+    padding:0 5px
+}
+.miphone .icon
+{
+    float:left;
+    width:40px;
+    height:36px;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.miphone .info
+{
+	height:60px;
+	line-height: 1.8;
+    padding-right: 3px;
+    position:relative;
+}
+
+.miphone .line
+{
+    height: 30px;
+}
+
+.miphone .device
+{
+    
+}
+.miphone .info-number{
+    font-size: 18px;
+}
+.miphone .mi-close
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 2px;
+}
+
+.miphone .mi-close:hover
+{
+    /*color: Red;*/
+    cursor: pointer;
+}
+
+.miphone .status
+{
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+}
+
+.miphone .duration
+{
+    float: right;
+}
+
+.miphone .tel
+{
+}
+
+.miphone .green
+{
+    color: Green;
+}
+
+.miphone .red
+{
+    color: Red;
+}
+
+.miphone .icon_default
+{
+    background-image: url("image/onhook.png");
+}
+
+.miphone .icon_ring
+{
+    background-image: url("image/ring.png");
+}
+
+.miphone .icon_connect
+{
+    background-image: url('image/connect.png');
+}
+
+.miphone .icon_offhook
+{
+	background-image: url("image/offhook.png");
+}
+
+.miphone .icon_dial
+{
+	background-image: url("image/offhook.png");
+}
+
+.miphone .icon_disconnect
+{
+	background-image: url("image/disconnect.png");
+}
+
+.miphone .icon_unring
+{
+    background-image: url("image/disconnect.png");
+}
+
+.miphone .icon_onhook
+{
+	background-image: url("image/onhook.png");
+}
+
+.miphone .icon_hold
+{
+	background-image: url("image/offhook.png");
+}
+
+.miphone .icon_unhold
+{
+	background-image: url("image/connect.png");
+}

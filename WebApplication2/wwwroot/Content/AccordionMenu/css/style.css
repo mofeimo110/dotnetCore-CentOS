@@ -1,0 +1,181 @@
+
+.accmenu ul{
+	margin:3px 0px 4px 0px;
+	padding:0;
+}
+
+.accmenu ul.acc-container{
+	/* The topmost UL */
+	width:180px;
+	margin:0 auto;
+	padding:50px;
+}
+
+.accmenu li{
+	list-style:none;
+	text-align:left;
+	vertical-align:middle;
+}
+
+.accmenu li.acc-button{
+	/* The main list elements */
+	padding:0;
+	margin-top: -1px;
+}
+
+.accmenu li.acc-button a{
+    vertical-align:middle;
+	display:block;
+	width:auto;
+	color:#000;
+	/*background:url('../images/am_gray.jpg') repeat-x;*/
+}
+
+.accmenu li.acc-button > a
+{
+    /* The section titles */ /*font-family:BPreplay,Arial,Helvetica,sans-serif;*/
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    font-size: 14px; /*height:27px;*/
+    line-height: 31px;
+    font-weight: bold;
+    padding-left: 20px;
+    border-color: #d9d9d9;
+}
+
+.accmenu li.acc-button a:hover
+{
+    /* Removing the inherited underline from the titles */
+    text-decoration: none; /*background:url('../images/am_gray_hover.jpg') repeat-x;*/
+    background-color: #66CCFF;
+    color: #FFFFFF;
+}
+
+.accmenu li.acc-button a span{
+	/* This span acts as the right part of the section's background */
+	height:44px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:4px;
+	display:block;
+}
+
+.accmenu li.acc-dropdown a:hover
+{
+    /*background:url('../images/am_gray_hover.jpg') repeat-x;*/
+}
+
+.accmenu li.acc-dropdown a{
+	/* The expandable lists */
+	width:auto;
+	font-size:12px;
+	/*height:25px;*/
+	line-height: 27px;
+	font-weight:normal;
+	padding-left:28px;
+	/*background:#f8f8f8;*/
+}
+
+.accmenu li.acc-dropdown 
+{
+    /*margin:2px 0 0 0;*/
+}
+
+.accmenu .acc-dropdown li{
+	/* Each element in the expandable list */
+	background-color:#373128;
+	border:1px solid #40392C;
+	color:#CCCCCC;
+	margin:5px 0;
+	padding:2px 8px;
+}
+
+
+/* The styles below are only necessary for the demo page */
+
+.accmenu h1{
+	/*font-family:"Myriad Pro",Arial,Helvetica,sans-serif;*/
+	font-size:36px;
+	font-weight:normal;
+	margin-bottom:15px;
+}
+
+.accmenu h2{
+	/*font-family:"Myriad Pro",Arial,Helvetica,sans-serif;*/
+	font-size:12px;
+	font-weight:normal;
+	padding-right:140px;
+	right:0;
+	text-align:right;
+	text-transform:uppercase;
+	top:15px;
+}
+
+.accmenu a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+.accmenu a:hover{
+	text-decoration:underline;
+}
+
+.accmenu p{
+	/* The tut info on the bottom of the page */
+	padding:10px;
+	text-align:center;
+}
+
+.accmenu li.acc-button a b
+{
+    display: block;
+    margin-top: 1px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    float: right;
+    width: 19px;
+    height: 29px; /*background: url(../images/bg_jdleft.jpg) no-repeat 0 -150px;*/
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 2.2; /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.accmenu li.acc-button a b:hover
+{
+    font-weight:bold;
+}
+
+.accmenu li.acc-button a b:before 
+{
+    content: "\e6ec";
+}
+
+.accmenu  li.acc-close a b:before{
+    content: "\e6ed";
+}
+
+.accmenu li.acc-button a b.none:before 
+{
+    content: "";
+}
+
+.accmenu  li.acc-close a b.none:before{
+    content: "";
+}
+
+.accmenu li.acc-current > a
+{
+    /*font-family:BPreplay,Arial,Helvetica,sans-serif;*/
+    font-weight: bold;
+    color: #09C;
+}

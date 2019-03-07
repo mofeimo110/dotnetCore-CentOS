@@ -1,0 +1,43 @@
+div.accmenu
+{
+    margin: 2px;
+}
+
+div.accmenu ul, div.accmenu ul ul {
+  list-style-type:none;
+  margin: 0px;
+  padding: 0;
+  width: 215px;
+}
+
+div.accmenu ul a {
+  display: block;
+  text-decoration: none;	
+}
+
+div.accmenu ul li {
+  margin-top: 1px;
+}
+
+div.accmenu ul li a
+{
+    background: rgb(74, 81, 85);
+    color: #fff;
+    padding: 0.5em;
+}
+
+div.accmenu ul li a:hover, div.accmenu ul > li.acc-current > a {
+  background: #000;
+}
+
+div.accmenu ul li ul li a {
+  background: #ccc;
+  color: #000;
+  padding-left: 20px;
+}
+
+div.accmenu ul li ul li a:hover, div.accmenu ul li ul li.acc-current a {
+  background: #aaa;
+  border-left: 5px #000 solid;
+  padding-left: 15px;
+}

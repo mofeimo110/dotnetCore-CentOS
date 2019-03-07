@@ -1,0 +1,48 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body,html,form
+{
+    /*background-color: #F5F5F5;*/
+    font-family: "Microsoft YaHei UI","Microsoft Yahei", 微软雅黑, "宋体", Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    /*color: #333333;*/
+    width:100%;
+    height:100%;
+    min-height:100%;
+    font-size:14px;
+}
+
+input,button
+{
+    font-family: "Microsoft YaHei UI","Microsoft Yahei", 微软雅黑, "宋体", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+/*a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}*/

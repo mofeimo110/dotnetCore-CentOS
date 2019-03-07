@@ -1,0 +1,10 @@
+﻿.nav-tabs > li a, .nav-pills > li a {
+    display: inline-block;
+}
+.nav-tabs > li .close, .nav-pills > li .close {
+    margin: 0 0 0 5px;
+    font-size: 18px;
+}
+.nav-pills > li .close{
+    color: #fff;
+}

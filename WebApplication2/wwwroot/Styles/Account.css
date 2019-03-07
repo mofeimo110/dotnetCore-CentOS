@@ -1,0 +1,91 @@
+﻿.main
+{
+    margin: 0 auto;
+    width: 980px;
+    background-color: #FFFFFF;
+    padding: 5px;
+    min-height:580px;
+}
+.main:after
+{
+    display:block;content:"";clear:both;
+}
+input[type="button"], input[type="submit"], button
+{
+    padding: 3px 27px;
+}
+
+.login-area
+{
+    margin-left:200px;
+    margin-right:200px;
+}
+
+.login
+{
+    padding: 10px;
+    margin-top: 70px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+.login form
+{
+    background-color: #FFFFFF;
+}
+
+.login input
+{
+    vertical-align: middle;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    width: 90%;
+    padding:5px 0;
+    margin-bottom: 5px;
+}
+
+.login input:focus
+{
+    outline: 0;
+    border: 1px solid #3399FF;
+}
+
+.login .field label
+{
+    display:block;
+}
+
+.login .control input
+{
+    width:inherit;
+    border: 0px;
+}
+
+.login .submitButton input
+{
+    /*background-color: #3333CC;*/
+    background-color: #3366FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-width: 0px;
+}
+
+.login .submitButton input:hover
+{
+    background-color: #66CCFF;
+}
+
+div.banner
+{
+    position:relative;
+    overflow:hidden;
+    text-align:center;
+}
+
+.carousel .banner-img
+{
+    left: 50%;
+    margin-left: -750px;
+    display: inline-block;
+    position: relative;
+}

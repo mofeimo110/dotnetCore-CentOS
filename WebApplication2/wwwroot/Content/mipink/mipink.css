@@ -1,0 +1,41 @@
+﻿.mipink {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .7);
+    z-index: 5;
+}
+
+    .mipink .mipink-close {
+        color: #fff;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        background: #000;
+        text-align: center;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+    .mipink .mipink-body {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding-bottom: 60px;
+    }
+
+        .mipink .mipink-body img {
+            width: 100%;
+            position: absolute;
+            top: 50%;
+        }

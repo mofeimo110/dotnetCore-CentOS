@@ -1,0 +1,265 @@
+.megamenu {
+	list-style:none;
+	margin:0px auto 0px auto;
+	/*height:22px;*/
+	padding:0px 5px 0px 5px;
+    
+	/* Rounded Corners */
+	
+	/*-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;*/
+
+	/* Background color and gradients */
+	
+	/*background: #D9DCE3;*/
+	/*background: -moz-linear-gradient(top, #0272a7, #013953);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0272a7), to(#013953));*/
+	font-family: "Microsoft YaHei UI","Microsoft Yahei", Î¢ÈíÑÅºÚ, "ËÎÌå", Arial, Helvetica, sans-serif;
+	
+	display:inline;
+}
+
+.megamenu li {
+	float:left;
+	display:block;
+	text-align:center;
+	position:relative;
+	/*padding: 3px 10px 2px 10px;*/
+	margin-right:0px;
+	margin-top:0px;
+	border:none;
+}
+
+.megamenu li:hover {
+	/*border: 1px solid #777777;
+	padding: 2px 9px 2px 9px;*/
+	
+	/* Background color and gradients */
+	
+	background: #fff;
+	/*background: -moz-linear-gradient(top, #F4F4F4, #EEEEEE);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4F4F4), to(#EEEEEE));*/
+	
+	/* Rounded corners */
+	
+	/*-moz-border-radius: 5px 5px 0px 0px;*/
+	/*-webkit-border-radius: 5px 5px 0px 0px;*/
+	/*border-radius: 5px 5px 0px 0px;*/
+}
+
+.megamenu li.current > a
+{
+    /*background-image: url('img/border.png');
+    background-repeat: repeat-x;*/
+    border-top: 2px solid #CC0000;
+    padding-top: 1px;
+}
+
+.megamenu li > a {
+	/*font-family:Arial, Helvetica, sans-serif;*/
+	color: #EEEEEE;
+	/*display:block;*/
+	outline:0;
+	text-decoration:none;
+	padding: 3px 10px 2px 10px;
+	display: block;
+	line-height:21px;
+}
+
+.megamenu li.current > a
+{
+	color:#FFFFFF;
+}
+
+.megamenu li:hover a {
+	color:#161616;
+	/*text-shadow: 1px 1px 1px #ffffff;*/
+}
+
+.megamenu li .drop:after
+{
+    font-family: 'icomoon';
+    content: "\e6ec";
+    line-height: 1.4;
+}
+
+.dropdown_1column, 
+.dropdown_2columns, 
+.dropdown_3columns, 
+.dropdown_4columns,
+.dropdown_5columns {
+	margin: 0px auto 2px;
+	float:left;
+	position:absolute;
+	left:-999em; /* Hides the drop down */
+	text-align:left;
+	padding:10px 5px 10px 5px;
+	border:1px solid #d9d9d9;
+	border-top:none;
+	
+	/* Gradient background */
+	background:#fff;
+	/*background: -moz-linear-gradient(top, #EEEEEE, #BBBBBB);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEEEEE), to(#BBBBBB));*/
+
+	/* Rounded Corners */
+	/*-moz-border-radius: 0px 5px 5px 5px;
+	-webkit-border-radius: 0px 5px 5px 5px;
+	border-radius: 0px 5px 5px 5px;*/
+}
+
+.dropdown_1column {width: 80px;}
+.dropdown_2columns {width: 160px;}
+.dropdown_3columns {width: 240px;}
+.dropdown_4columns {width: 320px;}
+.dropdown_5columns {width: 400px;}
+
+.megamenu li:hover .dropdown_1column, 
+.megamenu li:hover .dropdown_2columns, 
+.megamenu li:hover .dropdown_3columns,
+.megamenu li:hover .dropdown_4columns,
+.megamenu li:hover .dropdown_5columns {
+	left:-1px;
+	top:auto;
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.col_1 {width:70px;}
+.col_2 {width:150px;}
+.col_3 {width:230px;}
+.col_4 {width:310px;}
+.col_5 {width:390px;}
+
+.menu_right {
+	float:right;
+	margin-right:0px;
+}
+
+.menu_left {
+	float:left;
+	margin-left:0px;
+}
+
+.megamenu li .align_right {
+	/* Rounded Corners */
+	/*-moz-border-radius: 5px 0px 5px 5px;
+    -webkit-border-radius: 5px 0px 5px 5px;
+    border-radius: 5px 0px 5px 5px;*/
+}
+
+.megamenu li:hover .align_right {
+	left:auto;
+	right:-1px;
+	top:auto;
+}
+
+.megamenu li:hover div a {
+	color:#015b86;
+}
+.megamenu li:hover div a:hover {
+	color:#029feb;
+}
+
+
+.strong {
+	font-weight:bold;
+}
+.italic {
+	font-style:italic;
+}
+
+.imgshadow { /* Better style on light background */
+	background:#FFFFFF;
+	padding:4px;
+	/*border:1px solid #777777;*/
+	margin-top:5px;
+	-moz-box-shadow:0px 0px 5px #666666;
+	-webkit-box-shadow:0px 0px 5px #666666;
+	box-shadow:0px 0px 5px #666666;
+}
+.img_left { /* Image sticks to the left */
+	width:auto;
+	float:left;
+	margin:5px 15px 5px 5px;
+}
+
+.megamenu li .black_box {
+	background-color:#333333;
+	color: #eeeeee;
+	text-shadow: 1px 1px 1px #000;
+	padding:4px 6px 4px 6px;
+
+	/* Rounded Corners */
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+	/* Shadow */
+	-webkit-box-shadow:inset 0 0 3px #000000;
+	-moz-box-shadow:inset 0 0 3px #000000;
+	box-shadow:inset 0 0 3px #000000;
+}
+
+.megamenu li ul {
+	list-style:none;
+	padding:0;
+	margin:0 0 12px 0;
+}
+.megamenu li ul li {
+	/*font-size:12px;
+	line-height:24px;*/
+	position:relative;
+	/*text-shadow: 1px 1px 1px #ffffff;*/
+	padding:0;
+	margin:0;
+	float:none;
+	text-align:left;
+	width:70px;
+}
+.megamenu li ul li:hover {
+	background:none;
+	border:none;
+	padding:0;
+	margin:0;
+}
+
+.megamenu li .greybox li {
+	background:#fff;
+	/*border:1px solid #bbbbbb;*/
+	margin:0px 0px 4px 0px;
+	padding:4px 6px 4px 6px;
+	width:56px;
+
+	/* Rounded Corners */
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+.megamenu li .greybox li:hover {
+	background:#ffffff;
+	/*border:1px solid #aaaaaa;*/
+	padding:4px 6px 4px 6px;
+	margin:0px 0px 4px 0px;
+}
+
+.megamenu [class^="icon-"], .megamenu [class*=" icon-"] {
+width: inherit;
+height: inherit;
+margin-top: inherit;
+vertical-align: inherit;
+background-image: none;
+background-position:inherit;
+background-repeat:inherit;
+}

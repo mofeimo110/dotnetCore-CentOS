@@ -1,0 +1,112 @@
+﻿
+.leftnavigator
+{
+    /*position:absolute;*/
+    left:0;
+    float:left;
+    width:200px;
+    height:auto;
+    /*background-color:#F5F5F5;*/
+    display: block;
+    position: relative;
+    border-right: 1px solid #e6e6e6;
+}
+
+.leftnavigator .account-head .headimg{
+    width:79px;
+    margin: 5px;
+}
+.leftnavigator .account-head .star
+{
+    color: #FF9933;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+.leftnavigator .account-head .star span
+{
+    margin:0 -2px;
+}
+.leftnavigator .mini-statis-call
+{
+    width: 110px;
+}
+.leftnavigator .panel{
+    margin: 5px;
+}
+.leftnavigator .panel-heading{
+    padding: 3px 5px;
+}
+.leftnavigator .panel-heading[href]:hover{
+    cursor: pointer;
+}
+.leftnavigator .panel-body{
+    padding:5px;
+}
+.leftnavigator .alert{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.leftnavigator .alert-dismissable, .leftnavigator .alert-dismissible{
+    padding-right: 25px;
+}
+.leftnavigator a.mini-link{
+    padding-right: 19px;
+}
+.leftnavigator .mini-link .close{
+    font-size: inherit;
+    position: relative;
+    right: -15px;
+}
+.leftnavigator a.mini-link{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	overflow: hidden;
+}
+.leftnavigator .left-handler{
+    position: absolute;
+    right: 1px;
+    padding: 4px;
+    margin-top: 3px;
+    z-index: 10;
+}
+    .leftnavigator .left-handler.collapsed {
+        left:100%;
+        right:auto;
+        top: 34px;
+        background-color: #F5F5F5;
+        border-top: 1px solid #d9d9d9;
+        border-right: 1px solid #d9d9d9;
+        border-bottom: 1px solid #d9d9d9;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    .leftnavigator .box-home{
+        padding-bottom: 51px;
+    }
+    .leftnavigator .nav-tabs > li > a{
+        /*color: #555;*/
+    }
+    .leftnavigator .box-body{
+        overflow: hidden;
+    }
+    .leftnavigator .footer{
+        position: absolute;
+        bottom: 0;
+    }
+.main
+{
+    /*min-height: 580px;*/
+    /*min-height: -moz-calc(100% - 50px);
+    min-height: -webkit-calc(100% - 50px);
+    min-height: calc(100% - 50px);*/
+    /*background-color: #FFF;*/
+    /*position:relative;*/
+    margin-left: 200px;
+    /*margin-right: 3px;
+    margin-bottom: 3px;*/
+}
+@media (max-width: 767px) {
+    .main {
+        margin-left: 0;
+    }
+}

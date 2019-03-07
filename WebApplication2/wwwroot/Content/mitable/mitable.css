@@ -1,0 +1,68 @@
+﻿
+table.mitable
+{
+    width:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+}
+
+.mitable thead
+{
+    border:1px solid rgb(230, 230, 230);
+    line-height: 1.5em;
+}
+
+.mitable td
+{
+    text-align:center;
+    padding:0;
+    margin:0;
+    border-color: rgb(230, 230, 230);
+    border:1px solid rgb(230, 230, 230);
+}
+
+.mitable tr
+{
+    height: 28px;
+}
+
+.mitable .sep-row
+{
+    height:3px;
+}
+
+.mitable .group-hd
+{
+    background-color:rgb(232, 242, 255);
+}
+
+.mitable .group-hd td
+{
+    text-align:left;
+}
+
+.mitable .group-hd span
+{
+    margin: 0 5px 0 5px;
+}
+
+.mitable .tree-col
+{
+    text-align:left;
+}
+
+.mitable .tree-wrap
+{
+    float:left;
+    height:18px;
+    overflow:hidden;
+    white-space:nowrap;
+    position:relative;
+}
+
+.mitable .tree-icon
+{
+    float:right;
+    cursor:pointer;
+    padding: 2px 3px;
+}

@@ -1,0 +1,21 @@
+﻿#divDialog div.cmd
+{
+    text-align:right;
+}
+
+#divDialog input[type='button']
+{
+    width: 80px;
+    height: 28px;
+}
+
+#divDialog .container
+{
+    height: 320px;
+    overflow: auto;
+}
+
+#divDialog ul.content
+{
+    list-style-type: none;
+}
