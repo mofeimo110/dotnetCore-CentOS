@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <Reference Include="Library.Interface">
-      <HintPath>D:\Code\sbcp\Alcedo\Sbcp\Library\Library.Interface.dll</HintPath>
+      <HintPath>..\Lib\Library.Interface.dll</HintPath>
     </Reference>
   </ItemGroup>
 

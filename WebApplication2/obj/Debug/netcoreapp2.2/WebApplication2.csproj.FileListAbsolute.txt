@@ -30,6 +30,4 @@ C:\Users\Coder\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp
 C:\Users\Coder\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.csproj.CopyComplete
 C:\Users\Coder\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.2\Library.Interface.dll
 C:\Users\Coder\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.2\Library.Base.dll
-C:\Users\Coder\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.2\Microsoft.Win32.TaskScheduler.dll
 C:\Users\Coder\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.2\Library.Normal.dll
-C:\Users\Coder\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.2\Win32.dll

@@ -227,27 +227,11 @@
           }
         }
       },
-      "Microsoft.Win32.TaskScheduler/2.2.2.26204": {
-        "runtime": {
-          "Microsoft.Win32.TaskScheduler.dll": {
-            "assemblyVersion": "2.2.2.26204",
-            "fileVersion": "2.2.2.0"
-          }
-        }
-      },
       "Library.Normal/1.1.6957.34719": {
         "runtime": {
           "Library.Normal.dll": {
             "assemblyVersion": "1.1.6957.34719",
             "fileVersion": "1.1.6957.34719"
-          }
-        }
-      },
-      "Win32/1.0.0.0": {
-        "runtime": {
-          "Win32.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -3338,17 +3322,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Win32.TaskScheduler/2.2.2.26204": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Library.Normal/1.1.6957.34719": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Win32/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
