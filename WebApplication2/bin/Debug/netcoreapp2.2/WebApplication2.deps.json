@@ -25,7 +25,6 @@
       "WebApplication2/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
-          "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.0.2105168",
           "Library.Interface": "1.2.6957.34728"
